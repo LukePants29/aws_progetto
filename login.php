@@ -20,9 +20,11 @@ if ($statement->fetch()){
   $_SESSION['user_id'] = $query_response['id'];
   $_SESSION['nickname'] = $query_response['nickname'];
   $response['message'] = 'login successful';
+  header('Location: home.html');
 }else{
   http_response_code(400);
   $response['message'] = 'login failed';
+  header('Location: error_login.html');
 }
 $statement->close();
 
