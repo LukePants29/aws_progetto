@@ -15,11 +15,11 @@
         <form action="login.php" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
-                <input type="text" class="form-control" id="username" name="name" maxlength="100" placeholder="DanielePredello" require>
+                <input type="text" class="form-control" id="username" name="name" maxlength="100" placeholder="DanielePredello-RubenScopacasa" require>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" class="form-control" id="password" name="password" maxlength="100" placeholder="12345678" require>
+                <input type="password" class="form-control" id="password" name="password" maxlength="100" placeholder="12345678-87654321" require>
             </div>
             <button type="submit" class="btn btn-primary">Accedi</button>
         </form>
